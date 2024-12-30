@@ -22,7 +22,7 @@ The WBTC protocol is implemented by the OP_CAT Covenant and is compatible with t
 
 ### 1.3 Completely Decentralized
 
-The WBTC protocol is on Bitcoin Layer 1 and is implemented by the decentralized OP_CAT Covenant. It does not rely on off-chain indexers and is verified by the Bitcoin minter. No one, including the WBTC issuer, can change the operating mechanism and algorithm of the on-chain OP_CAT Covenant.
+The WBTC protocol is on Bitcoin Layer 1 and is implemented by the decentralized OP_CAT Covenant. It does not rely on off-chain indexers and is verified by the Bitcoin miner. No one, including the WBTC issuer, can change the operating mechanism and algorithm of the on-chain OP_CAT Covenant.
 
 ### 1.4 Trustless
 
@@ -34,7 +34,7 @@ Users can lock BTC to mint WBTC Token. The locked BTC is managed by the OP_CAT C
 
 ### 1.6 Censorship-Resistant
 
-All the operations of the WBTC protocol are completed on the OP_CAT Covenant and are atomic. No additional process (like signature) is required from the WBTC issuer. After the user agrees to the transaction by signing, the subsequent operations are automatically completed by the Covenant and then verified by the Bitcoin minter. No one can change the behavior and results, and no one can censor the user.
+All the operations of the WBTC protocol are completed on the OP_CAT Covenant and are atomic. No additional process (like signature) is required from the WBTC issuer. After the user agrees to the transaction by signing, the subsequent operations are automatically completed by the Covenant and then verified by the Bitcoin miner. No one can change the behavior and results, and no one can censor the user.
 
 ## 2. Innovations
 
@@ -50,7 +50,7 @@ In the WBTC protocol, the WBTC token holders can burn WBTC to unlock the same am
 
 ### 2.3 Wrapper: BTC Wrapping Contract
 
-Wrapper (BTC Wrapping Contract) is the management contract of the locked BTC. When users wrap BTC, they lock BTC to the wrapper to receive the same amount of WBTC. Similarly, for the unwrapping, when users burn WBTC, the wrapper will unlock the same amount of BTC to the user. Both processes are verified by Bitcoin minter, are completely decentralized and trustless, and cannot be controlled by anyone. Wrapper is the core of the WBTC protocol.
+Wrapper (BTC Wrapping Contract) is the management contract of the locked BTC. When users wrap BTC, they lock BTC to the wrapper to receive the same amount of WBTC. Similarly, for the unwrapping, when users burn WBTC, the wrapper will unlock the same amount of BTC to the user. Both processes are verified by Bitcoin miner, are completely decentralized and trustless, and cannot be controlled by anyone. Wrapper is the core of the WBTC protocol.
 
 ### 2.4 Refill Minter
 
