@@ -68,9 +68,7 @@ A blockchain oracle is a third-party service or agent that provides external dat
 Since the states (e.g. balance) of Bitcoin Layer 1 meta-protocols such as BRC-20 and Runes are stored in the indexer outside the Bitcoin blockchain, like Ethereum, the OP_CAT Covenant on the blockchain cannot know the states outside the blockchain. At this time, it is necessary to introduce the oracle mechanism, that provides the states outside the blockchain and ensures the correctness of the states through a decentralized mechanism. Just like many DeFi applications on Ethereum rely on Chainlink oracle, xWBTC uses oracle to verify whether xWBTC token exists in one UTXO. Oracle is an important infrastructure for DeFi projects. The CAT Protocol provides an implementation of Bitcoin Oracle: https://catprotocol.org/examples/oracle, based on which this protocol designs and implements the BTC Wrapping and Unwrapping.
 
 ![image](https://github.com/user-attachments/assets/dd3bd878-cda7-4b01-94bf-ce857f7fb880)
-<div style="text-align: center;">
-Bitcoin Oracle Designed by CAT Protocol
-</div>
+<p align="center">Bitcoin Oracle Designed by CAT Protocol</p>
 
 ## 3. Operations
 
